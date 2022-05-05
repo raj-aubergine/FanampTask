@@ -1,0 +1,240 @@
+[
+  {
+    "trackName": "Jeddah Corniche Circuit",
+    "trackImage": "track.png",
+    "Laps": "50",
+    "DrsZones":"3",
+    "Record":"1:30:734 (Lewis Hamilton,2021)",
+    "Results":[
+      {
+        "position":"1",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"1:24:19.293",
+        "nationalityFlag":"netherlands.png",
+        "points":"+25"
+      },
+      {
+        "position":"2",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+17"
+      },
+      {
+        "position":"3",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+16"
+      },
+      {
+        "position":"4",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+11"
+      },
+      {
+        "position":"5",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"ferrari.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+10"
+      },
+      {
+        "position":"6",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"ferrari.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+10"
+      },
+      {
+        "position":"7",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+9"
+      },
+      {
+        "position":"8",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+5"
+      },
+      {
+        "position":"9",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"ferrari.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+4"
+      },
+      {
+        "position":"10",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"+0.549s",
+        "nationalityFlag":"netherlands.png",
+        "points":"+3"
+      },
+      {
+        "position":"11",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"DNF",
+        "nationalityFlag":"netherlands.png",
+        "points":"+1"
+      },
+      {
+        "position":"12",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"ferrari.png",
+        "time":"DNF",
+        "nationalityFlag":"netherlands.png",
+        "points":"-"
+      },
+      {
+        "position":"13",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"redbull.png",
+        "time":"DNF",
+        "nationalityFlag":"netherlands.png",
+        "points":"-"
+      },
+      {
+        "position":"14",
+        "driver":"Max Verstappen",
+        "driverimage":"driver.png",
+        "teamlogo":"ferrari.png",
+        "time":"DNF",
+        "nationalityFlag":"netherlands.png",
+        "points":"-"
+      }
+    ],
+    "teams":[
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"redbull.png",
+        "teamposition":"1",
+        "teampoints":"+37"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"ferrari.png",
+        "teamposition":"2",
+        "teampoints":"+23"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"ferrari.png",
+        "teamposition":"3",
+        "teampoints":"+20"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"redbull.png",
+        "teamposition":"4",
+        "teampoints":"+7"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"redbull.png",
+        "teamposition":"5",
+        "teampoints":"+3"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"ferrari.png",
+        "teamposition":"6",
+        "teampoints":"+1"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"redbull.png",
+        "teamposition":"7",
+        "teampoints":"-"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"ferrari.png",
+        "teamposition":"8",
+        "teampoints":"-"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"ferrari.png",
+        "teamposition":"9",
+        "teampoints":"+20"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"redbull.png",
+        "teamposition":"10",
+        "teampoints":"+7"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"redbull.png",
+        "teamposition":"11",
+        "teampoints":"+3"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"ferrari.png",
+        "teamposition":"12",
+        "teampoints":"+1"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"redbull.png",
+        "teamposition":"13",
+        "teampoints":"-"
+      },
+      {
+        "teamname":"Red Bull",
+        "teamlogo":"ferrari.png",
+        "teamposition":"14",
+        "teampoints":"-"
+      }
+    ],
+    "fastestlap":{
+      "teamname":"ferrari",
+      "teamlogo":"ferrari.png",
+      "driver":"Max Verstappen",
+      "driverimage":"driver.png",
+      "time":"1:31.634",
+      "avgspeedkm":"242.556 kmph",
+      "avgspeedm":"150.717 kmph"
+    },
+    "poleposition":{
+      "teamname":"ferrari",
+      "teamlogo":"ferrari.png",
+      "driver":"Max Verstappen",
+      "driverimage":"driver.png"
+    }
+  }
+]
+
+  

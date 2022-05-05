@@ -1,6 +1,5 @@
-import 'package:demoapp/home_page.dart';
 import 'package:demoapp/provider/expansionProvider.dart';
-import 'package:demoapp/widgets/team_names_card.dart';
+import 'package:demoapp/widgets/track_details.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
       ],
       child: const MaterialApp(
         title: 'Flutter Demo',
-        home: HomePage(),
+        home: TrackDetails(),
       ),
     );
   }

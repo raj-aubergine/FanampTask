@@ -44,7 +44,7 @@ class CustomExpansionTile extends StatefulWidget {
     Key? key,
     this.leading,
     required this.title,
-    required this.point,
+    this.point,
     this.subtitle,
     this.onExpansionChanged,
     this.children = const <Widget>[],
@@ -335,20 +335,12 @@ class _CustomExpansionTileState extends State<CustomExpansionTile>
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(children: [
-                          const Padding(
-                              padding: EdgeInsets.only(right: 10),
-                              child: Icon(Icons.add_to_home_screen_outlined)),
                           Text(widget.title!,
-                              style:
-                                  const TextStyle(fontWeight: FontWeight.w600)),
+                              style: const TextStyle(
+                                  fontSize: 17, fontWeight: FontWeight.bold)),
                         ]),
-                        Row(children: [
-                          Text(
-                            "${widget.point!} pts",
-                            style: const TextStyle(
-                                color: const Color.fromARGB(255, 212, 67, 0)),
-                          ),
-                          const Icon(Icons.keyboard_arrow_down_outlined,
+                        Row(children: const [
+                          Icon(Icons.keyboard_arrow_down_outlined,
                               color: Color.fromARGB(255, 212, 67, 0))
                         ])
                       ]),

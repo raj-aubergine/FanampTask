@@ -8,7 +8,7 @@ import 'package:flutter/services.dart';
 class TeamNamesCard extends StatelessWidget {
   const TeamNamesCard({Key? key}) : super(key: key);
   Future<List<TeamDataModel>> readJsonData() async {
-    final jsondata = await rootBundle.loadString('assets/teamdata.json');
+    final jsondata = await rootBundle.loadString('assets/json/teamdata.json');
     final list = json.decode(jsondata) as List<dynamic>;
     return list.map((e) => TeamDataModel.fromJson(e)).toList();
   }

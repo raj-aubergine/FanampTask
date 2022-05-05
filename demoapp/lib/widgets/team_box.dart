@@ -9,18 +9,21 @@ class TeamBoxLeft extends StatelessWidget {
   final String name;
   @override
   Widget build(BuildContext context) {
+    MediaQueryData queryData = MediaQuery.of(context);
     return Padding(
         padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
         child: Row(children: [
           SizedBox(
             width: 25,
-            child: Text(id.toString(),
-                textAlign: TextAlign.center,
-                style:
-                    const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            child: Center(
+              child: Text(id.toString(),
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                      fontSize: 18, fontWeight: FontWeight.bold)),
+            ),
           ),
           Container(
-            width: 145,
+            width: queryData.size.width / 2 - 50,
             decoration: const BoxDecoration(
                 border: Border(
               left: BorderSide(
@@ -41,11 +44,11 @@ class TeamBoxLeft extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  const Icon(Icons.album),
+                  Image.asset("assets/images/$logo", height: 30, width: 30),
                   const SizedBox(width: 2),
                   Text(name,
                       style: const TextStyle(
-                          fontWeight: FontWeight.w500, fontSize: 15)),
+                          fontWeight: FontWeight.w500, fontSize: 17)),
                 ],
               ),
             ),
@@ -64,11 +67,12 @@ class TeamBoxRight extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    MediaQueryData queryData = MediaQuery.of(context);
     return Padding(
         padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
         child: Row(children: [
           Container(
-            width: 145,
+            width: queryData.size.width / 2 - 50,
             decoration: const BoxDecoration(
                 border: Border(
               left: BorderSide(
@@ -91,21 +95,22 @@ class TeamBoxRight extends StatelessWidget {
                 children: [
                   Text(name,
                       style: const TextStyle(
-                          fontWeight: FontWeight.w500, fontSize: 15)),
+                          fontWeight: FontWeight.w500, fontSize: 17)),
                   const SizedBox(width: 2),
-                  const Icon(Icons.album),
+                  Image.asset("assets/images/$logo", height: 30, width: 30),
                 ],
               ),
             ),
           ),
-          const SizedBox(width: 2),
-          Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Column(mainAxisAlignment: MainAxisAlignment.start, children: [
             SizedBox(
               width: 25,
-              child: Text(id.toString(),
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                      fontSize: 16, fontWeight: FontWeight.bold)),
+              child: Center(
+                child: Text(id.toString(),
+                    textAlign: TextAlign.end,
+                    style: const TextStyle(
+                        fontSize: 18, fontWeight: FontWeight.bold)),
+              ),
             ),
           ]),
         ]));
